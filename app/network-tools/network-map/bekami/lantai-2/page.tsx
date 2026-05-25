@@ -46,7 +46,7 @@ export default function Page() {
 
     <NetworkMapViewer
 
-      model="/models/Bekami_L2.glb"
+      model="/models/bekamil2.glb"
 
       onObjectClick={
         handleObjectClick
