@@ -50,11 +50,18 @@ const guestMenus = [
   ],
 },
 
-  {
-    name: "Network Tool",
-    href: "/network-tools",
-    children: [
-    {
+
+]
+
+const adminMenus = [
+  ...guestMenus,
+{
+  name: "Network Tool",
+  href: "/network-tools",
+
+  children: [
+
+   {
       name: "Network Tools",
       href: "/network-tools/network-diagnostics",
     },
@@ -63,7 +70,7 @@ const guestMenus = [
     //   name: "ISP Detection",
     //   href: "/network-tools/isp-detection",
     // },
-        {
+     {
       name: "Network Map",
       href: "/network-tools/network-map",
     },
@@ -71,13 +78,9 @@ const guestMenus = [
       name: "IP Management",
       href: "/network-tools/ip-management",
     },
-  ],
+    ],
   },
 
-]
-
-const adminMenus = [
-  ...guestMenus,
   {
     name: "Maintenance",
     href: "/maintenance",
