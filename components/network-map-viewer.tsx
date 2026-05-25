@@ -314,7 +314,7 @@ export default function NetworkMapViewer({
 
     onClick={() =>
       window.location.href =
-        "/network-tools/network-map"
+        "/network-tools/network-map/bekami/lantai-1"
     }
 
     className="
