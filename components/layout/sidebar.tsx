@@ -72,7 +72,7 @@ const adminMenus = [
     // },
      {
       name: "Network Map",
-      href: "/network-tools/network-map/bekami/lantai-1",
+      href: "/network-tools/network-map",
     },
     {
       name: "IP Management",
