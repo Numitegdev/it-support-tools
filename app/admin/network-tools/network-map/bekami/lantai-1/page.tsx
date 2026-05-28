@@ -19,25 +19,23 @@ export default function Page() {
       objectName
     )
 
-    // BALIK LANTAI 1
+    // KE LANTAI 2
     if (
-      objectName ===
-      "HILANG"
+      objectName === "HILANG"
     ) {
 
       router.push(
-        "/network-tools/network-map/bekami/lantai-1"
+        "/network-tools/network-map/bekami/lantai-2"
       )
     }
 
-    // KE SERVER
+    // KEMBALI KE MAP
     if (
-      objectName ===
-      "HILANG"
+      objectName === "HILANG"
     ) {
 
       router.push(
-        "/network-tools/network-map/bekami/server"
+        "/network-tools/network-map"
       )
     }
   }
@@ -46,7 +44,7 @@ export default function Page() {
 
     <NetworkMapViewer
 
-      model="/models/Bekami_L2.glb"
+      model="/models/bekamil1.glb"
 
       onObjectClick={
         handleObjectClick

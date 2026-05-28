@@ -50,34 +50,34 @@ const guestMenus = [
   ],
 },
 
-  {
-    name: "Network Tool",
-    href: "/network-tools",
-    children: [
-    {
-      name: "Network Tools",
-      href: "/network-tools/network-diagnostics",
-    },
-
-    // {
-    //   name: "ISP Detection",
-    //   href: "/network-tools/isp-detection",
-    // },
-        {
-      name: "Network Map",
-      href: "/network-tools/network-map",
-    },
-    {
-      name: "IP Management",
-      href: "/network-tools/ip-management",
-    },
-  ],
-  },
+  
 
 ]
 
 const adminMenus = [
   ...guestMenus,
+{
+    name: "Network Tool",
+    href: "/network-tools",
+    children: [
+    {
+      name: "Network Tools",
+      href: "/admin/network-tools/network-diagnostics",
+    },
+
+   
+        {
+      name: "Network Map",
+      href: "/admin/network-tools/network-map",
+    },
+    {
+      name: "IP Management",
+      href: "/admin/network-tools/ip-management",
+    },
+  ],
+  },
+
+
   {
     name: "Maintenance",
     href: "/maintenance",
