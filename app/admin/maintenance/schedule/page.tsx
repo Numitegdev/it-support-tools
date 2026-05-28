@@ -158,11 +158,11 @@ export default function MaintenanceSchedulePage() {
             </div>
 
             <h1 className="text-4xl font-black tracking-tight">
-              Maintenance Schedule
+            Jadwal Maintenance
             </h1>
 
             <p className="text-slate-400 max-w-xl">
-              Monthly maintenance management and room scheduling.
+             Halaman pembuatan jadwal maintenance Team IT ASW
             </p>
 
           </div>
