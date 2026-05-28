@@ -254,7 +254,7 @@ export default function NetworkMapViewer({
 
             onClick={() =>
                 router.push(
-                "/network-tools/network-diagnostics"
+                "/admin/network-tools/network-diagnostics"
                 )
             }
 
@@ -314,7 +314,7 @@ export default function NetworkMapViewer({
 
     onClick={() =>
       window.location.href =
-        "/network-tools/network-map"
+        "/admin/network-tools/network-map"
     }
 
     className="
@@ -335,7 +335,7 @@ export default function NetworkMapViewer({
 
     onClick={() =>
       window.location.href =
-        "/network-tools/network-map/bekami/lantai-1"
+        "/admin/network-tools/network-map/bekami/lantai-1"
     }
 
     className="
@@ -356,7 +356,7 @@ export default function NetworkMapViewer({
 
     onClick={() =>
       window.location.href =
-        "/network-tools/network-map/bekami/lantai-2"
+        "/admin/network-tools/network-map/bekami/lantai-2"
     }
 
     className="
@@ -377,7 +377,7 @@ export default function NetworkMapViewer({
 
     onClick={() =>
       window.location.href =
-        "/network-tools/network-map/bekami/server"
+        "/admin/network-tools/network-map/bekami/server"
     }
 
     className="
@@ -398,7 +398,7 @@ export default function NetworkMapViewer({
 
     onClick={() =>
       window.location.href =
-        "/network-tools/network-map/briza"
+        "/admin/network-tools/network-map/briza"
     }
 
     className="
