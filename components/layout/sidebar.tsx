@@ -63,7 +63,7 @@ const adminMenus = [
 
    {
       name: "Network Tools",
-      href: "/network-tools/network-diagnostics",
+      href: "/admin/network-tools/network-diagnostics",
     },
 
     // {
@@ -72,11 +72,11 @@ const adminMenus = [
     // },
      {
       name: "Network Map",
-      href: "/network-tools/network-map",
+      href: "/admin/network-tools/network-map",
     },
     {
       name: "IP Management",
-      href: "/network-tools/ip-management",
+      href: "/admin/network-tools/ip-management",
     },
     ],
   },
